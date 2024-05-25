@@ -7,21 +7,24 @@
     <title>Jojam Aviation Academy</title>
 
     <!-- Vendors CSS -->
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/vendor/slick.css" />
-    <link rel="stylesheet" href="assets/css/vendor/slick-theme.css" />
-    <link rel="stylesheet" href="assets/css/plugins/sal.css" />
-    <link rel="stylesheet" href="assets/css/plugins/feather.css" />
-    <link rel="stylesheet" href="assets/css/plugins/fontawesome.min.css" />
-    <link rel="stylesheet" href="assets/css/plugins/euclid-circulara.css" />
-    <link rel="stylesheet" href="assets/css/plugins/swiper.css" />
-    <link rel="stylesheet" href="assets/css/plugins/magnify.css" />
-    <link rel="stylesheet" href="assets/css/plugins/odometer.css" />
-    <link rel="stylesheet" href="assets/css/plugins/animation.css" />
-    <link rel="stylesheet" href="assets/css/plugins/bootstrap-select.min.css" />
-    <link rel="stylesheet" href="assets/css/plugins/jquery-ui.css" />
-    <link rel="stylesheet" href="assets/css/plugins/magnigy-popup.min.css" />
-    <link rel="stylesheet" href="assets/css/plugins/plyr.css" />
+    <link rel="stylesheet" href="./assets/css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/vendor/slick.css" />
+    <link rel="stylesheet" href="./assets/css/vendor/slick-theme.css" />
+    <link rel="stylesheet" href="./assets/css/plugins/sal.css" />
+    <link rel="stylesheet" href="./assets/css/plugins/feather.css" />
+    <link rel="stylesheet" href="./assets/css/plugins/fontawesome.min.css" />
+    <link rel="stylesheet" href="./assets/css/plugins/euclid-circulara.css" />
+    <link rel="stylesheet" href="./assets/css/plugins/swiper.css" />
+    <link rel="stylesheet" href="./assets/css/plugins/magnify.css" />
+    <link rel="stylesheet" href="./assets/css/plugins/odometer.css" />
+    <link rel="stylesheet" href="./assets/css/plugins/animation.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/plugins/bootstrap-select.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/plugins/jquery-ui.css" />
+    <link rel="stylesheet" href="./assets/css/plugins/magnigy-popup.min.css" />
+    <link rel="stylesheet" href="./assets/css/plugins/plyr.css" />
 
     <!-- main CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -29,13 +32,13 @@
     <!-- favicon -->
     <link
       rel="shortcut icon"
-      href="assets/images/favicon/favicon.ico"
+      href="./assets/images/favicon/favicon.ico"
       type="image/x-icon"
     />
   </head>
-  <body class="rbt-header-sticky body_dark">
+  <body class="rbt-header-sticky ">
     <!-- header  @start-->
-    <header class="rbt-header rbt-header-8 rbt-transparent-header">
+    <header class="rbt-header rbt-header-10 ">
       <div class="rbt-sticky-placeholder"></div>
 
       <!-- Start Header Top -->
@@ -126,22 +129,22 @@
             </div>
             <div class="rbt-main-navigation d-none d-xl-block">
               <!-- <nav class="mainmenu-nav"> -->
-                <nav class="mainmenu-nav onepagenav">
-                  <ul class="mainmenu">
-                    <li class="current">
-                      <a href="/html/index.html">Home</a>
-                    </li>
-                    <li>
-                      <a href="/html/aboutus.html">About Us</a>
-                    </li>
-                    <li >
-                      <a href="/html/courses.html">Our Courses</a>
-                    </li>
-                    <li >
-                      <a href="/html/contact.html">Conatct Us</a>
-                    </li>
-                  </ul>
-                </nav>
+              <nav class="mainmenu-nav onepagenav">
+                <ul class="mainmenu">
+                  <li>
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li>
+                    <a href="aboutus.html">About Us</a>
+                  </li>
+                  <li>
+                    <a href="courses.html">Our Courses</a>
+                  </li>
+                  <li>
+                    <a href="contact.html">Conatct Us</a>
+                  </li>
+                </ul>
+              </nav>
               <!-- </nav> -->
             </div>
             <div class="header-right">
@@ -340,9 +343,12 @@
         </div>
         <!-- @End Search Dropdown  -->
       </div>
+
+      <a class="rbt-close_side_menu" href="javascript:void(0);"></a>
     </header>
     <!-- header  @end-->
-    <!-- Mobile Menu Section -->
+
+    <!-- @End Mobile Menu -->
     <div class="popup-mobile-menu">
       <div class="inner-wrapper">
         <div class="inner-top">
@@ -382,7 +388,7 @@
           <ul class="mainmenu">
             <nav class="mainmenu-nav onepagenav">
               <ul class="mainmenu">
-                <li >
+                <li>
                   <a href="/html/index.html">Home</a>
                 </li>
                 <li>
@@ -439,14 +445,32 @@
         </div>
       </div>
     </div>
-    <!-- @End Mobile Menu -->
-
     <!-- @Start Mobile Menu -->
-        
-    <!-- @End header slider -->
 
     <!-- @Start content Area -->
-
+    
+    <div class="rbt-error-area bg-gradient-11 rbt-section-gap">
+        <div class="error-area">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-10">
+                        <h1 class="title">404!</h1>
+                        <h3 class="sub-title">Page not found</h3>
+                        <p>The page you were looking for could not be found.</p>
+                        <a class="rbt-btn btn-gradient icon-hover" href="index.html">
+                            <span class="btn-text">Back To Home</span>
+                            <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="rbt-separator-mid">
+        <div class="container">
+            <hr class="rbt-separator m-0">
+        </div>
+    </div>
     <!-- @End content Area -->
 
     <!-- separation line @start -->
@@ -638,7 +662,6 @@
             </div>
           </div>
         </div>
-        
       </div>
       <!-- End Copyright Area  -->
     </footer>
@@ -656,35 +679,35 @@
     </div>
 
     <!-- Vendors JS -->
-    <script src="assets/js/vendor/modernizr.min.js"></script>
+    <script src="./assets/js/vendor/modernizr.min.js"></script>
     <!-- jQuery JS -->
-    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="./assets/js/vendor/jquery.js"></script>
     <!-- Bootstrap JS -->
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="./assets/js/vendor/bootstrap.min.js"></script>
     <!-- sal.js -->
-    <script src="assets/js/vendor/sal.js"></script>
-    <script src="assets/js/vendor/swiper.js"></script>
-    <script src="assets/js/vendor/magnify.min.js"></script>
-    <script src="assets/js/vendor/jquery-appear.js"></script>
-    <script src="assets/js/vendor/odometer.js"></script>
-    <script src="assets/js/vendor/backtotop.js"></script>
-    <script src="assets/js/vendor/isotop.js"></script>
-    <script src="assets/js/vendor/imageloaded.js"></script>
+    <script src="./assets/js/vendor/sal.js"></script>
+    <script src="./assets/js/vendor/swiper.js"></script>
+    <script src="./assets/js/vendor/magnify.min.js"></script>
+    <script src="./assets/js/vendor/jquery-appear.js"></script>
+    <script src="./assets/js/vendor/odometer.js"></script>
+    <script src="./assets/js/vendor/backtotop.js"></script>
+    <script src="./assets/js/vendor/isotop.js"></script>
+    <script src="./assets/js/vendor/imageloaded.js"></script>
 
-    <script src="assets/js/vendor/wow.js"></script>
-    <script src="assets/js/vendor/waypoint.min.js"></script>
-    <script src="assets/js/vendor/easypie.js"></script>
-    <script src="assets/js/vendor/text-type.js"></script>
-    <script src="assets/js/vendor/jquery-one-page-nav.js"></script>
-    <script src="assets/js/vendor/bootstrap-select.min.js"></script>
-    <script src="assets/js/vendor/jquery-ui.js"></script>
-    <script src="assets/js/vendor/magnify-popup.min.js"></script>
-    <script src="assets/js/vendor/paralax-scroll.js"></script>
-    <script src="assets/js/vendor/paralax.min.js"></script>
-    <script src="assets/js/vendor/countdown.js"></script>
-    <script src="assets/js/vendor/plyr.js"></script>
+    <script src="./assets/js/vendor/wow.js"></script>
+    <script src="./assets/js/vendor/waypoint.min.js"></script>
+    <script src="./assets/js/vendor/easypie.js"></script>
+    <script src="./assets/js/vendor/text-type.js"></script>
+    <script src="./assets/js/vendor/jquery-one-page-nav.js"></script>
+    <script src="./assets/js/vendor/bootstrap-select.min.js"></script>
+    <script src="./assets/js/vendor/jquery-ui.js"></script>
+    <script src="./assets/js/vendor/magnify-popup.min.js"></script>
+    <script src="./assets/js/vendor/paralax-scroll.js"></script>
+    <script src="./assets/js/vendor/paralax.min.js"></script>
+    <script src="./assets/js/vendor/countdown.js"></script>
+    <script src="./assets/js/vendor/plyr.js"></script>
 
     <!-- main JS -->
-    <script src="../assets/js/main.js"></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
